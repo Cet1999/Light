@@ -5,7 +5,7 @@ if (instance_exists(obj_player))
 
 image_angle = direction
 
-i = 50;
+i = 30;
 if(hp <= 0)
 {
 	with(obj_score)	TheScore += 5;
@@ -15,6 +15,6 @@ if(hp <= 0)
 	instance_create_layer(choose(random_range(-300,0),random_range(1536,1836)),choose(random_range(-300,0),random_range(1024,1324)),layer,obj_enemy);
 	if obj_score.TheScore = i{
 		instance_create_layer(choose(random_range(-300,0),random_range(1536,1836)),choose(random_range(-300,0),random_range(1024,1324)),layer,obj_enemy);
-		i += 50
+		i += 30
 	}
 }

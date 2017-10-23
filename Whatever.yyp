@@ -343,11 +343,27 @@
             }
         },
         {
+            "Key": "f2422e82-4183-499d-94da-d5471d1b14fe",
+            "Value": {
+                "id": "4f9738eb-ecdc-49c4-9d12-0aba457b3110",
+                "resourcePath": "sprites\\spr_item2\\spr_item2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "97ad796f-310d-424d-92f8-435aaf0bb902",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7c77049-8864-477e-8fb2-a5bae3c53e3c",
+            "Value": {
+                "id": "3c271cbe-9b07-43f0-b51f-bbe7ee065333",
+                "resourcePath": "objects\\obj_item2\\obj_item2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
