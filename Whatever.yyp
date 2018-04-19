@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "587cbe71-563c-4f51-b72c-6639769f150c",
+            "Value": {
+                "id": "b24106e0-3a4b-436f-b8b2-008828680fbf",
+                "resourcePath": "sprites\\spr_textbox\\spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61050691-4b39-4082-be5c-fcc5ef60c92b",
             "Value": {
                 "id": "5d5ad470-0a72-4b45-978d-9757c0563e36",
@@ -231,10 +239,18 @@
             }
         },
         {
+            "Key": "a3778c0e-baae-4abe-8615-2444cfc5c2b9",
+            "Value": {
+                "id": "2faf50ef-ef1d-4b46-85ed-f7bdcc1fa7c0",
+                "resourcePath": "objects\\obj_story\\obj_story.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5d4221d-a601-4b7c-8b62-73e61b7bad8b",
             "Value": {
                 "id": "88af5018-7433-4ce3-b3ac-a7ec26c19f68",
-                "resourcePath": "objects\\object5\\object5.yy",
+                "resourcePath": "objects\\obj_text\\obj_text.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -244,6 +260,14 @@
                 "id": "fa9671fb-1d95-49eb-80b3-2799892bf76b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "affeeffc-cfa7-4450-9099-d18bb77b4dfa",
+            "Value": {
+                "id": "abb62876-6baf-4938-90b1-d50d608ce98c",
+                "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -276,6 +300,14 @@
                 "id": "94469aa8-0e71-48f1-9b35-b0838818bfb0",
                 "resourcePath": "sounds\\snd_die\\snd_die.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c46fea85-0ba7-4dab-a2f1-c8adcf784f00",
+            "Value": {
+                "id": "79dbd17f-56a2-4c98-a72d-2987ab249db9",
+                "resourcePath": "scripts\\scr_text\\scr_text.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -335,6 +367,14 @@
             }
         },
         {
+            "Key": "e887a7a9-c003-49d8-b03e-f3a34965c281",
+            "Value": {
+                "id": "f4d8d09c-c3c0-40ed-86c4-4fe813d4b10e",
+                "resourcePath": "sprites\\spr_player2\\spr_player2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f0a7446e-83e3-4e76-8329-0f3f7d1bd5a9",
             "Value": {
                 "id": "d1a5383f-d0fa-489d-8856-63586934b32f",
@@ -359,6 +399,14 @@
             }
         },
         {
+            "Key": "f728964e-26cb-439f-aa25-e846b87e782a",
+            "Value": {
+                "id": "d33f25b7-c53f-4ea2-a354-9776e389ab77",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f7c77049-8864-477e-8fb2-a5bae3c53e3c",
             "Value": {
                 "id": "3c271cbe-9b07-43f0-b51f-bbe7ee065333",
@@ -376,7 +424,7 @@
         }
     ],
     "script_order": [
-        
+        "c46fea85-0ba7-4dab-a2f1-c8adcf784f00"
     ],
     "tutorial": ""
 }

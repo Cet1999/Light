@@ -1,2 +1,2 @@
 instance_destroy();
-obj_player.state += 1;
+obj_player.fire_state += 1;

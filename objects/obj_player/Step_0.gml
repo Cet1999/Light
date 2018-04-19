@@ -1,22 +1,31 @@
-if (keyboard_check(ord("W"))) y -= 6;
-if (keyboard_check(ord("A"))) x -= 6;
-if (keyboard_check(ord("S"))) y += 6;
-if (keyboard_check(ord("D"))) x += 6;
+if instance_exists(obj_text){
+	move_state = 0
+	shoot_state = 0
+}else{
+	move_state = 1
+	shoot_state = 1
+}
+if move_state = 1{
+	if (keyboard_check(ord("W"))) y -= 6;
+	if (keyboard_check(ord("A"))) x -= 6;
+	if (keyboard_check(ord("S"))) y += 6;
+	if (keyboard_check(ord("D"))) x += 6;
 
-image_angle = point_direction(x,y,mouse_x,mouse_y);
-
-
-if (mouse_check_button(mb_left)) && (cooldown < 1)
-{    
-	fire = 0
-	while fire<state
-	{
-		instance_create_layer(x,y,layer,obj_bullet)
-		fire += 1
-	}
-	cooldown = 10
+	image_angle = point_direction(x,y,mouse_x,mouse_y);
 }
 
+if shoot_state = 1{
+	if (mouse_check_button(mb_left)) && (cooldown < 1)
+	{    
+		fire = 0
+		while fire<fire_state
+		{
+			instance_create_layer(x,y,layer,obj_bullet)
+			fire += 1
+		}
+		cooldown = 10
+	}
+}
 cooldown -= 1
 
 if item_cooldown = 0
